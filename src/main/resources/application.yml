@@ -1,0 +1,11 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: betterreads
+      contact-points: 127.0.0.1
+      port: 9042
+      schema-action: create-if-not-exists
+
+datadump.location:
+  authors: /Users/komp/Desktop/test-authors.txt
+  works: /Users/komp/Desktop/test-works.txt
